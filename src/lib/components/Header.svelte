@@ -24,10 +24,19 @@
 <style>
 	nav {
 		padding-block: var(--size-7);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	ul {
 		margin-block: var(--size-7);
+		display: flex;
+		list-style: none;
+		gap: var(--size-7);
+		margin-left: auto;
+		margin-right: var(--size-8);
+		padding: 0;
 	}
 
 	a {
